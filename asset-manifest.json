@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.93b61ae5.js",
-    "static/js/787.ba441274.chunk.js": "/static/js/787.ba441274.chunk.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.93b61ae5.js.map": "/static/js/main.93b61ae5.js.map",
-    "787.ba441274.chunk.js.map": "/static/js/787.ba441274.chunk.js.map"
+    "main.css": "/the-lost-bottle/static/css/main.e6c13ad2.css",
+    "main.js": "/the-lost-bottle/static/js/main.4630e1b0.js",
+    "static/js/787.ba441274.chunk.js": "/the-lost-bottle/static/js/787.ba441274.chunk.js",
+    "index.html": "/the-lost-bottle/index.html",
+    "main.e6c13ad2.css.map": "/the-lost-bottle/static/css/main.e6c13ad2.css.map",
+    "main.4630e1b0.js.map": "/the-lost-bottle/static/js/main.4630e1b0.js.map",
+    "787.ba441274.chunk.js.map": "/the-lost-bottle/static/js/787.ba441274.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.93b61ae5.js"
+    "static/js/main.4630e1b0.js"
   ]
 }
