@@ -18,16 +18,18 @@ const Title = styled.h1`
 
 const InfoBox = styled.div`
   background-color: ${(props) =>
-    props.winner === 'Bottle' ? '#e94949' : props.winner === 'Henry' ? '#62db62' : '#fff'};
+    props.winner === 'Bottle' ? '#f2a7a7' : props.winner === 'Henry' ? '#d0e8d3' : '#fff'};
   color: ${(props) => (props.winner ? '#fff' : '#000')};
   padding: 20px;
   font-size: 18px;
   font-weight: 600;
   border-radius: 5px;
   margin-left: 20px;
+  border: 1px solid #646464;
 `;
 
 const RollDicesButton = styled.button`
+  text-transform: uppercase;
   background-color: #000;
   border: none;
   border-radius: 5px;

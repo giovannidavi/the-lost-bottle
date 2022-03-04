@@ -45,13 +45,13 @@ test('Board GB and Safe areas', () => {
   renderWithCustomProvider(<Board />, value);
 
   for (const position of GBgbArea) {
-    expect(screen.getByTestId(`cell-${position[0]}-${position[1]}`)).toHaveStyle('background-color: #e94949');
+    expect(screen.getByTestId(`cell-${position[0]}-${position[1]}`)).toHaveStyle('background-color: #f2a7a7');
   }
 
   for (const position of SafeArea) {
     if (GBgbArea.find(([r, c]) => position[0] === r && position[1] === c)) {
       continue;
     }
-    expect(screen.getByTestId(`cell-${position[0]}-${position[1]}`)).toHaveStyle('background-color: #62db62');
+    expect(screen.getByTestId(`cell-${position[0]}-${position[1]}`)).toHaveStyle('background-color: #d0e8d3');
   }
 });
